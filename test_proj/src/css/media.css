@@ -1,0 +1,398 @@
+@media (min-width: 576px) {
+  .wrap {
+    /* height: 960px; */
+    width: 600px;
+  }
+
+  .l-bl,
+  .r-bl {
+    max-width: 600px;
+  }
+
+  .l-bl {
+    height: 480px;
+  }
+
+  .l-bl .l-bl_img_btn {
+    margin-top: 15px;
+  }
+
+  .l-bl .l-bl_warning {
+    margin-top: 15px;
+    width: 420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*r-bl*/
+  .r-bl_two_choose svg {
+    width: 59px;
+    height: 120px;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+  }
+
+  .r-bl_two_choose .two_choose_header_h1 {
+    font-family: Montserrat_bold;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .r-bl_two_choose .two_choose_description {
+    font-family: Inter UI;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .r-bl_three_choose .three_choose_h1 {
+    font-family: Montserrat_bold;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .r-bl_three_choose .three_choose_descr {
+    font-family: Inter UI;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .r-bl_three_choose img {
+    height: 120px;
+    width: 93px;
+    margin-bottom: 27px;
+
+  }
+
+  .four_choose .four_choose_img {
+    padding-top: 0;
+  }
+
+  .five_choose .five_choose_img {
+    padding-top: 0;
+  }
+
+  .r-bl_two_choose,
+  .r-bl_three_choose,
+  .four_choose,
+  .five_choose {
+    height: 180px;
+  }
+
+  .l-bl .first_to_sec,
+  .r-bl .sec_to_third,
+  .r-bl .third_to_fourth,
+  .r-bl .fourth_to_fifth{
+    display: none;
+  }
+
+}
+
+
+
+@media (min-width: 768px) {
+  .wrap {
+    height: 960px;
+    width: 800px;
+  }
+
+  .r-bl_two_choose,
+  .r-bl_three_choose,
+  .four_choose,
+  .five_choose {
+    height: 240px;
+  }
+
+  /*l-bl*/
+  .l-bl,
+  .r-bl {
+    max-width: 400px;
+    height: 960px;
+    position: relative;
+  }
+
+  .l-bl .l-bl_img_btn {
+    margin-top: 230px;
+  }
+
+  .l-bl .l-bl_warning {
+    margin-top: 281px;
+    width: 340px;
+  }
+
+  /*r-bl*/
+  .r-bl_two_choose,
+  .r-bl_three_choose {
+    padding-top: 30px;
+    padding-left: 15px;
+  }
+
+  .r-bl_two_choose .two_choose_header_h1 {
+    font-family: Montserrat_bold;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .r-bl_two_choose .two_choose_description {
+    font-family: Inter UI;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .r-bl_three_choose .three_choose_h1 {
+    font-family: Montserrat_bold;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .r-bl_three_choose .three_choose_descr {
+    font-family: Inter UI;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .r-bl_two_choose svg {
+    width: 59px;
+    height: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .r-bl_three_choose img {
+    height: 120px;
+    margin-top: 33px;
+    margin-bottom: 27px;
+    width: 93px;
+    /* padding-right: 60px; */
+  }
+
+  .five_choose .five_choose_img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 36px;
+  }
+
+  /*описания*/
+  .two_choose_description,
+  .three_choose_description,
+  .four_choose_description {
+    width: 180px;
+  }
+
+  /*стрелки*/
+
+
+  .l-bl .first_to_sec {
+    display: block;
+    position: absolute;
+    top: 165px;
+    left: 82%;
+    z-index: 1;
+  }
+  .r-bl .sec_to_third{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 95%;
+    z-index: 1;
+  }
+  .r-bl .third_to_fourth{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    z-index: 1;
+  }
+
+  .r-bl .fourth_to_fifth {
+    display: block;
+    position: absolute;
+    top: 65%;
+    left: 85%;
+    z-index: 1;
+  }
+
+  /**/
+
+
+
+}
+
+@media (min-width: 992px) {
+  .wrap {
+    max-height: 720px;
+    width: 1000px;
+  }
+
+  .l-bl,
+  .r-bl {
+    max-width: 500px;
+    height: 720px;
+  }
+
+  /*l-bl*/
+  .l-bl .l-bl_img_btn {
+    margin-top: 110px;
+  }
+
+  .l-bl .l-bl_warning {
+    margin-top: 170px;
+  }
+
+  /*r-bl*/
+  .r-bl_two_choose,
+  .r-bl_three_choose {
+    padding: 31px 40px 10px 30px;
+  }
+
+  .r-bl_two_choose .two_choose_description {
+    font-family: Inter UI;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .r-bl_two_choose .two_choose_svg svg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25px;
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .r-bl_three_choose img {
+    /* width: 120px; */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 50px;
+    /* margin-top: 33px; */
+    /* margin-bottom: 27px; */
+    padding-right: 0;
+  }
+
+  /*--------------*/
+  .l-bl, .r-bl {
+    position: relative;
+  }
+
+  .l-bl .first_to_sec {
+    display: block;
+    position: absolute;
+    top: 165px;
+    left: 86%;
+    z-index: 1;
+  }
+
+  .r-bl .sec_to_third {
+    display: block;
+    position: absolute;
+    top: 165px;
+    left: 70%;
+    z-index: 1;
+  }
+
+  .r-bl .third_to_fourth {
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    z-index: 1;
+  }
+
+  .r-bl .fourth_to_fifth {
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 87%;
+    z-index: 1;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .l-bl,
+  .r-bl {
+    position: relative;
+  }
+
+  .wrap {
+    max-height: 720px;
+    width: 1000px;
+  }
+
+  .r-bl_two_choose {
+    padding: 31px 40px 10px 30px;
+  }
+
+
+  .r-bl_two_choose .two_choose_description {
+    font-family: Inter UI;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000000;
+  }
+
+
+  .l-bl .first_to_sec {
+    position: absolute;
+    top: 165px;
+    left: 86%;
+    z-index: 1;
+  }
+
+  .r-bl .sec_to_third {
+    position: absolute;
+    top: 165px;
+    left: 70%;
+    z-index: 1;
+  }
+
+  .r-bl .third_to_fourth {
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    z-index: 1;
+  }
+
+  .r-bl .fourth_to_fifth {
+    position: absolute;
+    top: 70%;
+    left: 87%;
+    z-index: 1;
+  }
+}

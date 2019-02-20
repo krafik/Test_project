@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Inter UI bold';
+  src: url(../fonts/Inter-UI-3.2/InterUI/Inter-UI-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf)
+}
+
+* {
+  box-sizing: border-box;
+  /* font-family: Inter UI bold; */
+}
+
+
+
+.wrap_inner {
+  height: 720px;
+}
+
+.first-choose_prod {
+  background-color: #F5F48E;
+  text-align: center;
+}
+
+.first-mt-mb {
+  margin-top: 30px;
+  margin-bottom: 18px;
+
+}
+
+.first-choose_prod h1 {
+
+  height: 37px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #252525;
+}
+
+.first-choose_prod h4 {
+  margin-top: 14px;
+  height: 25px;
+  font-family: Inter UI;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+}
+
+.first-choose_prod .first-img {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.first-choose_prod .img_ikea {
+
+  box-shadow: 0px 25px 50px rgba(205, 203, 70, 0.842363);
+  width: 214px;
+  height: 238px;
+
+}
+
+/* .first_choose_prod img {
+  /* box-shadow: 0px 25px 50px rgba(205, 203, 70, 0.842363);
+ z-index: -20; *
+
+} */
+
+.first-choose_prod .btn {
+  display: block;
+  border: 1px solid #949CAA;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 140px;
+  font-family: Inter UI;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.hide{
+  display: none;
+}
+
+/*--------*/
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
