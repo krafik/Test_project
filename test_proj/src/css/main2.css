@@ -215,8 +215,7 @@ a:hover {
 }
 
 
-.first_to_sec img,
-.sec_to_third img {
+.first_to_sec img{
   width: 147px;
   height: 52px;
 }
